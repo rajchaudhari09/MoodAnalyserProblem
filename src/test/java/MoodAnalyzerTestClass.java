@@ -1,6 +1,9 @@
 import org.junit.Assert;
 import org.junit.Test;
 
+import java.lang.reflect.Constructor;
+import java.lang.reflect.InvocationTargetException;
+
 public class MoodAnalyzerTestClass {
     //CREATE OBJECT OF MOODANALYZER CLASS
     MoodAnalyzer mood = new MoodAnalyzer();
@@ -9,7 +12,7 @@ public class MoodAnalyzerTestClass {
     @Test
     public void givenMeassage_WhenValid_ThenReturnMood() throws MoodAnalysisException {
         MoodAnalyzer mood = new MoodAnalyzer("I am in sad mood");
-        String reaction = mood.moodAnalyzer("");
+        String reaction = mood.moodAnalyzer();
         Assert.assertEquals("sad", reaction);
     }
 
@@ -17,7 +20,7 @@ public class MoodAnalyzerTestClass {
     @Test
     public void givenMeassage_WhenInvalid_ThenReturnMood() throws MoodAnalysisException {
         MoodAnalyzer mood = new MoodAnalyzer("I am in happy mood");
-        String reaction = mood.moodAnalyzer("");
+        String reaction = mood.moodAnalyzer();
         Assert.assertEquals("happy", reaction);
     }
 
@@ -25,7 +28,7 @@ public class MoodAnalyzerTestClass {
     public void givenNull_WhenInvalid_ThenReturn() {
         MoodAnalyzer mood = new MoodAnalyzer(null);
         try {
-            String reaction = mood.moodAnalyzer("");
+            String reaction = mood.moodAnalyzer();
         } catch (MoodAnalysisException e) {
             Assert.assertEquals(MoodAnalysisException.MyException_Type.NULL, e.type);
         }
@@ -35,7 +38,7 @@ public class MoodAnalyzerTestClass {
     public void givenEmpty_WhenInvalid_ThenTrue() {
         MoodAnalyzer mood = new MoodAnalyzer("");
         try {
-            String reaction = mood.moodAnalyzer("");
+            String reaction = mood.moodAnalyzer();
         } catch (MoodAnalysisException e) {
             Assert.assertEquals(MoodAnalysisException.MyException_Type.EMPTY, e.type);
         }
@@ -105,6 +108,18 @@ public class MoodAnalyzerTestClass {
             boolean result = returnMood.equals(mood);
         }catch(MoodAnalysisException e){
             Assert.assertEquals(MoodAnalysisException.MyException_Type.METHOD_NOT_FOUND,e.type);
+        }
+    }
+
+    @Test
+    public void givenHappy_WhenProper_ThenReturnHappyMood() throws MoodAnalysisException {
+        try {
+            Constructor<?> constructor = MoodAnalyserFactory.getConstructor("MoodAnalyzer",String.class);
+            Object instance = constructor.newInstance("i am in happy mood");
+            String analyser = MoodAnalyserFactory.moodAnalyzer ( (MoodAnalyzer) instance ,"moodAnalyzer") ;
+            Assert.assertEquals("happy",analyser);
+        } catch (IllegalAccessException |InstantiationException | InvocationTargetException e) {
+            e.printStackTrace();
         }
     }
 }

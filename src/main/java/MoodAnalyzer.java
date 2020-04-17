@@ -9,7 +9,7 @@ public class MoodAnalyzer {
     }
 
     // Method that return the mood
-    public String moodAnalyzer(String mood) throws MoodAnalysisException {
+    public String moodAnalyzer() throws MoodAnalysisException {
         try {
             if (message.length() == 0) {
                 throw new MoodAnalysisException(MoodAnalysisException.MyException_Type.EMPTY, "You entered empty,please enter valid mood");
@@ -22,7 +22,7 @@ public class MoodAnalyzer {
         } catch (NullPointerException e) {
             throw new MoodAnalysisException(MoodAnalysisException.MyException_Type.NULL, "You entered null,please enter valid mood");
         }
-        return (mood);
+        return (null);
     }
 
     // Default constructor
