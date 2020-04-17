@@ -2,23 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5a0b78e0-c3e2-41fd-8c69-18ce4aab0ceb" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/classAnalysis.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/test/MoodAnalyzerTestClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/MoodAnalyzerTestClass.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/MoodAnalyzerTestClass.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/classes/MoodAnalyzerTestClass.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/default-package.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/packages/default-package.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-MoodAnalyzerTestClass.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/TEST-MoodAnalyzerTestClass.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin.idx" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/output.bin.idx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/MoodAnalyzerTestClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/MoodAnalyzerTestClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/MoodAnalyserFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MoodAnalyserFactory.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,13 +52,33 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.MoodAnalyzerTestClass.givenMoodAnaliserParameterCustructor_WhenProper_ThenReturnObject">
+  <component name="RunManager" selected="Gradle.MoodAnalyzerTestClass.givenClassNameWithParameter_WhenImproper_ThenThrowMoodAnalysisException">
     <configuration name="MoodAnalyzerTestClass" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
         <option name="scriptParameters" value="--tests &quot;MoodAnalyzerTestClass&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":cleanTest" />
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="MoodAnalyzerTestClass.givenClassNameWithParameter_WhenImproper_ThenThrowMoodAnalysisException" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;MoodAnalyzerTestClass.givenClassNameWithParameter_WhenImproper_ThenThrowMoodAnalysisException&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -128,26 +133,6 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="MoodAnalyzerTestClass.givenMoodAnaliserDefaultCustructor_WhenProper_ThenReturnObject" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;MoodAnalyzerTestClass.givenMoodAnaliserDefaultCustructor_WhenProper_ThenReturnObject&quot;" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":cleanTest" />
-            <option value=":test" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
-      <method v="2" />
-    </configuration>
     <configuration name="MoodAnalyzerTestClass.givenMoodAnaliserParameterCustructor_WhenProper_ThenReturnObject" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -170,11 +155,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.MoodAnalyzerTestClass.givenClassNameWithParameter_WhenImproper_ThenThrowMoodAnalysisException" />
         <item itemvalue="Gradle.MoodAnalyzerTestClass.givenMoodAnaliserParameterCustructor_WhenProper_ThenReturnObject" />
         <item itemvalue="Gradle.MoodAnalyzerTestClass.givenClassName_WhenInimproper_ThenThrowMoodAnalysisException" />
         <item itemvalue="Gradle.MoodAnalyzerTestClass.givenClassName_WhenImproper_ThenThrowMoodAnalysisException" />
         <item itemvalue="Gradle.MoodAnalyzerTestClass" />
-        <item itemvalue="Gradle.MoodAnalyzerTestClass.givenMoodAnaliserDefaultCustructor_WhenProper_ThenReturnObject" />
       </list>
     </recent_temporary>
   </component>
@@ -196,22 +181,22 @@
       <screen x="70" y="34" width="1850" height="1046" />
     </state>
     <state x="662" y="247" width="655" height="626" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/70.34.1850.1046@70.34.1850.1046" timestamp="1587137720716" />
-    <state width="1794" height="260" key="GridCell.Tab.0.bottom" timestamp="1587139077809">
+    <state width="1794" height="260" key="GridCell.Tab.0.bottom" timestamp="1587139644285">
       <screen x="70" y="34" width="1850" height="1046" />
     </state>
-    <state width="1794" height="260" key="GridCell.Tab.0.bottom/70.34.1850.1046@70.34.1850.1046" timestamp="1587139077809" />
-    <state width="1794" height="260" key="GridCell.Tab.0.center" timestamp="1587139077806">
+    <state width="1794" height="260" key="GridCell.Tab.0.bottom/70.34.1850.1046@70.34.1850.1046" timestamp="1587139644285" />
+    <state width="1794" height="260" key="GridCell.Tab.0.center" timestamp="1587139644285">
       <screen x="70" y="34" width="1850" height="1046" />
     </state>
-    <state width="1794" height="260" key="GridCell.Tab.0.center/70.34.1850.1046@70.34.1850.1046" timestamp="1587139077806" />
-    <state width="1794" height="260" key="GridCell.Tab.0.left" timestamp="1587139077805">
+    <state width="1794" height="260" key="GridCell.Tab.0.center/70.34.1850.1046@70.34.1850.1046" timestamp="1587139644285" />
+    <state width="1794" height="260" key="GridCell.Tab.0.left" timestamp="1587139644284">
       <screen x="70" y="34" width="1850" height="1046" />
     </state>
-    <state width="1794" height="260" key="GridCell.Tab.0.left/70.34.1850.1046@70.34.1850.1046" timestamp="1587139077805" />
-    <state width="1794" height="260" key="GridCell.Tab.0.right" timestamp="1587139077808">
+    <state width="1794" height="260" key="GridCell.Tab.0.left/70.34.1850.1046@70.34.1850.1046" timestamp="1587139644284" />
+    <state width="1794" height="260" key="GridCell.Tab.0.right" timestamp="1587139644285">
       <screen x="70" y="34" width="1850" height="1046" />
     </state>
-    <state width="1794" height="260" key="GridCell.Tab.0.right/70.34.1850.1046@70.34.1850.1046" timestamp="1587139077808" />
+    <state width="1794" height="260" key="GridCell.Tab.0.right/70.34.1850.1046@70.34.1850.1046" timestamp="1587139644285" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
