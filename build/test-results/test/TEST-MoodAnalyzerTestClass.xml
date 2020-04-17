@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="MoodAnalyzerTestClass" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-04-17T15:07:40" hostname="rajchaudhari-HP-Notebook" time="0.001">
+<testsuite name="MoodAnalyzerTestClass" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-04-17T15:16:15" hostname="rajchaudhari-HP-Notebook" time="0.001">
   <properties/>
-  <testcase name="givenNull_WhenInvalid_ThenReturnHappy" classname="MoodAnalyzerTestClass" time="0.001"/>
+  <testcase name="givenMeassage_WhenInvalid_ThenReturnMood" classname="MoodAnalyzerTestClass" time="0.001"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
