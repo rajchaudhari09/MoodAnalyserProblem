@@ -2,29 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5a0b78e0-c3e2-41fd-8c69-18ce4aab0ceb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/MoodAnalyserFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/resourceHashesCache.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/classAnalysis.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/jarAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/jarAnalysis.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/taskHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/MoodAnalyser.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/MoodAnalyzer.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/MoodAnalyzer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/test/MoodAnalyzerTestClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/MoodAnalyzerTestClass.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/MoodAnalyzerTestClass.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/classes/MoodAnalyzerTestClass.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/default-package.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/packages/default-package.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-MoodAnalyzerTestClass.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/TEST-MoodAnalyzerTestClass.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin.idx" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/output.bin.idx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/MoodAnalyserFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MoodAnalyserFactory.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/MoodAnalysisException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MoodAnalysisException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/MoodAnalyzer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MoodAnalyzer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/MoodAnalyzer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/MoodAnalyzer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/MoodAnalyzerTestClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/MoodAnalyzerTestClass.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -68,6 +50,11 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
   </component>
   <component name="RunManager" selected="Gradle.MoodAnalyzerTestClass">
     <configuration name="MoodAnalyzerTestClass" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
@@ -194,6 +181,10 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
+    <state x="662" y="247" width="655" height="626" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1587137720716">
+      <screen x="70" y="34" width="1850" height="1046" />
+    </state>
+    <state x="662" y="247" width="655" height="626" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/70.34.1850.1046@70.34.1850.1046" timestamp="1587137720716" />
     <state width="1794" height="260" key="GridCell.Tab.0.bottom" timestamp="1587137026751">
       <screen x="70" y="34" width="1850" height="1046" />
     </state>

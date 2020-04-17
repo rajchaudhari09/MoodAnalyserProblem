@@ -51,4 +51,13 @@ public class MoodAnalyzerTestClass {
         }
     }
 
+    @Test
+    public void givenClassName_WhenImproper_ThenThrowMoodAnalysisException() {
+        try{
+            MoodAnalyzer mood = new MoodAnalyzer();
+            MoodAnalyserFactory.getConstructor("MoodAnalyze",String.class);
+        }catch(MoodAnalysisException e){
+            Assert.assertEquals(MoodAnalysisException.MyException_Type.CLASS_NOT_FOUND,e.type);
+        }
+    }
 }
