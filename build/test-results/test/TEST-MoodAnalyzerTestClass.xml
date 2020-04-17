@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="MoodAnalyzerTestClass" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-04-17T15:16:15" hostname="rajchaudhari-HP-Notebook" time="0.001">
+<testsuite name="MoodAnalyzerTestClass" tests="5" skipped="0" failures="0" errors="0" timestamp="2020-04-17T15:23:44" hostname="rajchaudhari-HP-Notebook" time="0.008">
   <properties/>
-  <testcase name="givenMeassage_WhenInvalid_ThenReturnMood" classname="MoodAnalyzerTestClass" time="0.001"/>
-  <system-out><![CDATA[]]></system-out>
+  <testcase name="givenMoodAnaliserDefaultCustructor_WhenProper_ThenReturnObject" classname="MoodAnalyzerTestClass" time="0.001"/>
+  <testcase name="givenNull_WhenInvalid_ThenReturn" classname="MoodAnalyzerTestClass" time="0.005"/>
+  <testcase name="givenMeassage_WhenInvalid_ThenReturnMood" classname="MoodAnalyzerTestClass" time="0.0"/>
+  <testcase name="givenEmpty_WhenInvalid_ThenTrue" classname="MoodAnalyzerTestClass" time="0.0"/>
+  <testcase name="givenMeassage_WhenValid_ThenReturnMood" classname="MoodAnalyzerTestClass" time="0.0"/>
+  <system-out><![CDATA[You entered null,please enter valid mood
+You entered empty,please enter valid mood
+]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
