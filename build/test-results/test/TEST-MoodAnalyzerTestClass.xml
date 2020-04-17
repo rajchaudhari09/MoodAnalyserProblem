@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="MoodAnalyzerTestClass" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-04-17T16:07:25" hostname="rajchaudhari-HP-Notebook" time="0.007">
+<testsuite name="MoodAnalyzerTestClass" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-04-17T16:10:38" hostname="rajchaudhari-HP-Notebook" time="0.006">
   <properties/>
-  <testcase name="givenClassNameWithParameter_WhenImproper_ThenThrowMoodAnalysisException" classname="MoodAnalyzerTestClass" time="0.007"/>
-  <system-out><![CDATA[Please enter valid Class name
+  <testcase name="givenConstructorWithParameter_WhenImproper_ThenThrowMethodNotFoundException" classname="MoodAnalyzerTestClass" time="0.006"/>
+  <system-out><![CDATA[Please enter valid method name
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
