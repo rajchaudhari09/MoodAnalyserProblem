@@ -135,4 +135,17 @@ public class MoodAnalyzerTestClass {
             e.printStackTrace();
         }catch (RuntimeException e){e.printStackTrace();}
     }
+
+    @Test
+    public void givenSetHappyMessageWithReflector_ShouldReturnHAPPY() throws MoodAnalysisException {
+        try {
+            Constructor<?> constructor = MoodAnalyserFactory.getConstructor("MoodAnalyzer",String.class);
+            MoodAnalyzer moodAnalyze = MoodAnalyserFactory.createMoodAnalyzer();
+            MoodAnalyserFactory.setFieldMoodAnalyser(moodAnalyze,"message","i am in happy mood");
+            String analyser = MoodAnalyserFactory.moodAnalyzer ( (MoodAnalyzer)moodAnalyze ,"moodAnalyzer") ;
+            Assert.assertEquals("happy",analyser);
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+    }
 }

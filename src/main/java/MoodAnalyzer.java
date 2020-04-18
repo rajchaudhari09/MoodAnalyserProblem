@@ -8,7 +8,7 @@ public class MoodAnalyzer {
         MoodAnalyzer moodAnalyzerObject = new MoodAnalyzer();
     }
 
-    // Method that return the mood
+    // THAT CAN BE A METHOD RETURN IS MOOD
     public String moodAnalyzer() throws MoodAnalysisException {
         try {
             if (message.length() == 0) {
@@ -25,16 +25,16 @@ public class MoodAnalyzer {
         return (null);
     }
 
-    // Default constructor
+    // THAT CAN BE A DEFAULT CONSTRUCTOR
     public MoodAnalyzer() {
     }
 
-    // Parameterized constructor
+    // THAT CAN BE A PARAMETERIZED CONSTRUCTOR
     public MoodAnalyzer(String message) {
         this.message = message;
     }
 
-    // Check two object equals or not
+    // THAT CAN BE A CHECK EQUAL OR NOT EQUAL TWO OBJECT
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;

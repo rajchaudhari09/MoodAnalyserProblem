@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="MoodAnalyzerTestClass" tests="12" skipped="0" failures="0" errors="0" timestamp="2020-04-18T03:20:24" hostname="rajchaudhari-HP-Notebook" time="0.015">
+<testsuite name="MoodAnalyzerTestClass" tests="13" skipped="0" failures="0" errors="0" timestamp="2020-04-18T03:26:53" hostname="rajchaudhari-HP-Notebook" time="0.012">
   <properties/>
-  <testcase name="givenConstructorName_WhenImproper_ThenThrowMoodAnalysisException" classname="MoodAnalyzerTestClass" time="0.005"/>
-  <testcase name="givenHappy_WhenProper_ThenReturnHappyMood" classname="MoodAnalyzerTestClass" time="0.001"/>
+  <testcase name="givenConstructorName_WhenImproper_ThenThrowMoodAnalysisException" classname="MoodAnalyzerTestClass" time="0.006"/>
+  <testcase name="givenHappy_WhenProper_ThenReturnHappyMood" classname="MoodAnalyzerTestClass" time="0.0"/>
   <testcase name="givenMoodAnaliserDefaultCustructor_WhenProper_ThenReturnObject" classname="MoodAnalyzerTestClass" time="0.0"/>
-  <testcase name="givenNull_WhenInvalid_ThenReturn" classname="MoodAnalyzerTestClass" time="0.0"/>
+  <testcase name="givenNull_WhenInvalid_ThenReturn" classname="MoodAnalyzerTestClass" time="0.001"/>
   <testcase name="givenConstructorWithParameter_WhenImproper_ThenThrowMethodNotFoundException" classname="MoodAnalyzerTestClass" time="0.0"/>
-  <testcase name="givenClassName_WhenImproper_ThenThrowMoodAnalysisException" classname="MoodAnalyzerTestClass" time="0.0"/>
+  <testcase name="givenClassName_WhenImproper_ThenThrowMoodAnalysisException" classname="MoodAnalyzerTestClass" time="0.001"/>
   <testcase name="givenMeassage_WhenInvalid_ThenReturnMood" classname="MoodAnalyzerTestClass" time="0.0"/>
-  <testcase name="givenMoodAnaliserParameterCustructor_WhenProper_ThenReturnObject" classname="MoodAnalyzerTestClass" time="0.0"/>
+  <testcase name="givenMoodAnaliserParameterCustructor_WhenProper_ThenReturnObject" classname="MoodAnalyzerTestClass" time="0.001"/>
   <testcase name="givenEmpty_WhenInvalid_ThenTrue" classname="MoodAnalyzerTestClass" time="0.0"/>
-  <testcase name="givenClassNameWithParameter_WhenImproper_ThenThrowMoodAnalysisException" classname="MoodAnalyzerTestClass" time="0.002"/>
+  <testcase name="givenClassNameWithParameter_WhenImproper_ThenThrowMoodAnalysisException" classname="MoodAnalyzerTestClass" time="0.0"/>
+  <testcase name="givenSetHappyMessageWithReflector_ShouldReturnHAPPY" classname="MoodAnalyzerTestClass" time="0.0"/>
   <testcase name="givenMeassage_WhenValid_ThenReturnMood" classname="MoodAnalyzerTestClass" time="0.0"/>
   <testcase name="givenHappyMessage_WhenImproperMethod_ShouldThrowMoodAnalysisException" classname="MoodAnalyzerTestClass" time="0.001"/>
   <system-out><![CDATA[Please enter valid method name
